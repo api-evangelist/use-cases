@@ -1,15 +1,23 @@
+aid: use-cases
 name: Use Cases
-description: Practical applications and scenarios demonstrating how a technology or
-  product can be implemented to solve real-world problems. It is used across a range
-  of industries and technical contexts to improve efficiency and outcomes.
-url: null
+description: >-
+  Practical applications and scenarios demonstrating how a technology or product
+  can be implemented to solve real-world problems. It is used across a range of
+  industries and technical contexts to improve efficiency and outcomes.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Applications
-- Examples
-- Implementation
-- Scenarios
-- Solutions
-created: '2025'
-modified: '2025'
+  - Applications
+  - Examples
+  - Implementation
+  - Scenarios
+  - Solutions
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/use-cases/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
