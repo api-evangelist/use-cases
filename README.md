@@ -1,25 +1,55 @@
-# Use Cases (use-cases)
-Practical applications and scenarios demonstrating how a technology or product can be implemented to solve real-world problems. It is used across a range of industries and technical contexts to improve efficiency and outcomes.
+# Use Cases
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/use-cases/refs/heads/main/apis.yml)
+A curated collection of practical API use cases across industries and technical domains. Use cases describe specific scenarios where APIs solve real-world problems, improve workflows, and enable integrations. This repository indexes use case patterns across industries including fintech, healthcare, retail, logistics, and enterprise software, helping API producers and consumers understand how APIs deliver value.
 
-## Scope
+## Overview
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+| Property | Value |
+|---|---|
+| **Type** | Index |
+| **Version** | 0.19 |
+| **Created** | 2025-01-01 |
+| **Modified** | 2026-05-03 |
 
-## Tags:
+## Tags
 
- - Applications, Examples, Implementation, Scenarios, Solutions
+`API Design` `Applications` `Best Practices` `Examples` `Implementation` `Integration Patterns` `Scenarios` `Solutions`
 
-## Timestamps
+## Artifacts
 
-- **Created:** 2025-01-01 
-- **Modified:** 2026-03-16 
+### JSON-LD Context
+
+A JSON-LD context mapping use case vocabulary to linked data semantics, aligning concepts with schema.org and custom use case ontologies.
+
+- [use-cases-context.jsonld](json-ld/use-cases-context.jsonld)
+
+### Vocabulary
+
+A comprehensive taxonomy and vocabulary for describing API use cases, covering industry verticals, integration patterns, personas, API capability types, complexity levels, and maturity stages.
+
+- [use-cases-vocabulary.yml](vocabulary/use-cases-vocabulary.yml)
+
+## Vocabulary Coverage
+
+The vocabulary covers the following dimensions:
+
+**Industry Verticals:** Finance, Healthcare, Retail, Logistics, Government, Education, Manufacturing, Media, Travel, Telecommunications, Real Estate, Insurance
+
+**Integration Patterns:** CRUD, Event-Driven, Webhook, Polling, Batch Processing, Streaming, Orchestration, Aggregation, Transformation, Request-Response
+
+**API Capability Types:** Authentication, Payments, Notifications, Search, Analytics, Storage, AI/ML, Geolocation, Communication, Identity, Compliance, Data
+
+**Personas:** Developer, Data Engineer, Product Manager, Architect, Business Analyst, DevOps Engineer, Security Engineer, Data Scientist
+
+**Complexity Levels:** Basic, Intermediate, Advanced, Expert
+
+**Maturity Stages:** Emerging, Growing, Established, Commodity
 
 ## Maintainers
 
-**FN:** Kin Lane
+- **Kin Lane** — kin@apievangelist.com
 
-**Email:** kin@apievangelist.com
+## Links
+
+- [API Evangelist](https://apievangelist.com/)
+- [GitHub Repository](https://github.com/api-evangelist/use-cases)

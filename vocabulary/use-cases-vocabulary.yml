@@ -1,0 +1,157 @@
+aid: use-cases-vocabulary
+name: Use Cases Vocabulary
+description: >-
+  A taxonomy and vocabulary for describing API use cases across industries,
+  integration patterns, personas, and workflow categories. Provides a shared
+  language for API producers and consumers to document, discover, and compare
+  how APIs solve real-world problems.
+version: '1.0'
+created: '2026-05-03'
+modified: '2026-05-03'
+
+categories:
+  - name: Industry Verticals
+    description: Top-level industry domains where API use cases are applied
+    terms:
+      - term: Finance
+        definition: Banking, payments, lending, wealth management, and financial data use cases
+        aliases: [Fintech, Banking, Financial Services]
+      - term: Healthcare
+        definition: Patient data, clinical workflows, insurance, and health information exchange use cases
+        aliases: [Health IT, MedTech, Digital Health]
+      - term: Retail
+        definition: E-commerce, inventory, loyalty, product catalog, and order management use cases
+        aliases: [E-commerce, Commerce, Consumer Goods]
+      - term: Logistics
+        definition: Shipping, tracking, warehouse, fleet, and supply chain use cases
+        aliases: [Supply Chain, Transportation, Delivery]
+      - term: Government
+        definition: Public services, open data, regulatory, and citizen portal use cases
+        aliases: [GovTech, Public Sector, Civic Tech]
+      - term: Education
+        definition: Learning management, student data, credentialing, and edtech use cases
+        aliases: [EdTech, Higher Education, K-12]
+      - term: Manufacturing
+        definition: IoT sensors, production monitoring, quality control, and ERP integration use cases
+        aliases: [Industry 4.0, Industrial IoT, Smart Manufacturing]
+      - term: Media
+        definition: Content delivery, streaming, advertising, and publishing use cases
+        aliases: [Entertainment, Publishing, Broadcasting]
+      - term: Travel
+        definition: Booking, reservations, loyalty, and travel data use cases
+        aliases: [Hospitality, Tourism, Aviation]
+      - term: Telecommunications
+        definition: Network management, messaging, SIM, and connectivity use cases
+        aliases: [Telco, Mobile, Connectivity]
+      - term: Real Estate
+        definition: Property listings, valuations, mortgage, and facilities management use cases
+        aliases: [PropTech, Property, Facilities]
+      - term: Insurance
+        definition: Policy management, claims, underwriting, and risk assessment use cases
+        aliases: [InsurTech, Claims, Risk]
+
+  - name: Integration Patterns
+    description: Technical patterns used to implement API integrations
+    terms:
+      - term: CRUD
+        definition: Create, Read, Update, Delete operations on resources via REST endpoints
+        aliases: [REST CRUD, Resource Management]
+      - term: Event-Driven
+        definition: Asynchronous processing triggered by events published to message queues or event streams
+        aliases: [Event Streaming, Pub/Sub, Message-Based]
+      - term: Webhook
+        definition: HTTP callbacks pushed from provider to consumer when events occur
+        aliases: [Callbacks, Push Notifications, HTTP Push]
+      - term: Polling
+        definition: Periodic requests to check for new data or status changes
+        aliases: [Long Polling, Short Polling]
+      - term: Batch Processing
+        definition: Processing large volumes of data in scheduled bulk operations
+        aliases: [Bulk Operations, Scheduled Sync, ETL]
+      - term: Streaming
+        definition: Continuous real-time data flows using WebSockets, SSE, or gRPC streams
+        aliases: [Real-Time Streaming, WebSocket, Server-Sent Events]
+      - term: Orchestration
+        definition: Coordinating multiple API calls in a defined sequence to complete a workflow
+        aliases: [Workflow Orchestration, API Chaining, Choreography]
+      - term: Aggregation
+        definition: Combining data from multiple API sources into a unified response
+        aliases: [Data Aggregation, BFF Pattern, API Gateway]
+      - term: Transformation
+        definition: Converting data formats, schemas, or protocols between systems
+        aliases: [Data Mapping, Format Conversion, ETL Transform]
+      - term: Request-Response
+        definition: Synchronous call-and-response interaction between client and server
+        aliases: [Synchronous, RPC, Direct Call]
+
+  - name: API Capability Types
+    description: Categories of capabilities that APIs provide
+    terms:
+      - term: Authentication
+        definition: APIs providing identity verification, token management, and access control
+      - term: Payments
+        definition: APIs enabling payment processing, transfers, refunds, and financial transactions
+      - term: Notifications
+        definition: APIs for sending emails, SMS, push notifications, and in-app messages
+      - term: Search
+        definition: APIs providing full-text search, faceted filtering, and relevance ranking
+      - term: Analytics
+        definition: APIs exposing metrics, reports, dashboards, and data insights
+      - term: Storage
+        definition: APIs for file, object, and document storage and retrieval
+      - term: AI/ML
+        definition: APIs providing machine learning inference, NLP, computer vision, and AI capabilities
+      - term: Geolocation
+        definition: APIs for maps, geocoding, routing, and location-based services
+      - term: Communication
+        definition: APIs for voice, video, chat, and messaging services
+      - term: Identity
+        definition: APIs for user management, profiles, KYC, and identity verification
+      - term: Compliance
+        definition: APIs for regulatory reporting, audit trails, and compliance workflows
+      - term: Data
+        definition: APIs for accessing, querying, and managing structured and unstructured data
+
+  - name: Personas
+    description: User roles and archetypes that interact with APIs
+    terms:
+      - term: Developer
+        definition: Software engineers building applications and integrations using APIs
+      - term: Data Engineer
+        definition: Engineers building data pipelines, ETL flows, and analytics infrastructure
+      - term: Product Manager
+        definition: Product owners defining API requirements and use case prioritization
+      - term: Architect
+        definition: Technical architects designing integration patterns and API ecosystems
+      - term: Business Analyst
+        definition: Analysts translating business requirements into API use case specifications
+      - term: DevOps Engineer
+        definition: Engineers managing API infrastructure, deployment, and operations
+      - term: Security Engineer
+        definition: Engineers implementing API security, authentication, and compliance controls
+      - term: Data Scientist
+        definition: Scientists consuming APIs for model training, inference, and data access
+
+  - name: Complexity Levels
+    description: Classification of use case implementation complexity
+    terms:
+      - term: Basic
+        definition: Single API, single operation, minimal integration logic required
+      - term: Intermediate
+        definition: Multiple operations or APIs, some orchestration, standard authentication
+      - term: Advanced
+        definition: Complex workflows, multiple APIs, custom logic, high-volume or real-time requirements
+      - term: Expert
+        definition: Enterprise-scale integrations with compliance, multi-tenancy, and complex data flows
+
+  - name: Maturity Stages
+    description: Maturity and adoption level of a use case
+    terms:
+      - term: Emerging
+        definition: New capability enabled by recent API features, early adopters only
+      - term: Growing
+        definition: Proven pattern with increasing adoption across multiple providers
+      - term: Established
+        definition: Widely adopted use case with mature tooling and best practices
+      - term: Commodity
+        definition: Universal baseline capability, available from many providers, easily replicated

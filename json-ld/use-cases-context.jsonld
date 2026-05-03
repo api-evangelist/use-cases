@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "uc": "https://api-evangelist.github.io/use-cases/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "UseCase": "uc:UseCase",
+    "UseCaseCategory": "uc:UseCaseCategory",
+    "Industry": "uc:Industry",
+    "IntegrationPattern": "uc:IntegrationPattern",
+    "APICapability": "uc:APICapability",
+    "Persona": "uc:Persona",
+    "Workflow": "uc:Workflow",
+    "Solution": "uc:Solution",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "identifier": "schema:identifier",
+    "url": "schema:url",
+    "category": "uc:category",
+    "industry": "uc:industry",
+    "persona": "uc:persona",
+    "workflow": "uc:workflow",
+    "problem": "uc:problem",
+    "solution": "uc:solution",
+    "benefits": "uc:benefits",
+    "prerequisites": "uc:prerequisites",
+    "relatedUseCases": "uc:relatedUseCases",
+    "apis": "uc:apis",
+    "integrationPattern": "uc:integrationPattern",
+    "complexity": "uc:complexity",
+    "maturity": "uc:maturity",
+    "tags": "schema:keywords",
+
+    "industries": {
+      "@id": "uc:industries",
+      "@container": "@list"
+    },
+    "steps": {
+      "@id": "uc:steps",
+      "@container": "@list"
+    },
+
+    "Finance": "uc:Finance",
+    "Healthcare": "uc:Healthcare",
+    "Retail": "uc:Retail",
+    "Logistics": "uc:Logistics",
+    "Manufacturing": "uc:Manufacturing",
+    "Government": "uc:Government",
+    "Education": "uc:Education",
+    "Media": "uc:Media",
+    "Travel": "uc:Travel",
+    "Telecommunications": "uc:Telecommunications",
+    "RealEstate": "uc:RealEstate",
+    "Insurance": "uc:Insurance",
+
+    "CRUD": "uc:CRUD",
+    "EventDriven": "uc:EventDriven",
+    "Streaming": "uc:Streaming",
+    "Batch": "uc:Batch",
+    "Webhook": "uc:Webhook",
+    "Polling": "uc:Polling",
+    "RequestResponse": "uc:RequestResponse",
+    "Orchestration": "uc:Orchestration",
+    "Aggregation": "uc:Aggregation",
+    "Transformation": "uc:Transformation"
+  }
+}
