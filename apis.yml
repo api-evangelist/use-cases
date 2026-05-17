@@ -28,7 +28,7 @@ common:
     url: https://apievangelist.com/
   - type: GitHub
     url: https://github.com/api-evangelist/use-cases
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/use-cases-context.jsonld
   - type: Vocabulary
     url: vocabulary/use-cases-vocabulary.yml
