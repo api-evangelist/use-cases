@@ -21,6 +21,15 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/use-cases.png
 tags:
   - API Design
+  - Application
+  - Best Practices
+  - Examples
+  - Implementation
+  - Integration Patterns
+  - Scenarios
+  - Solutions
+tags_raw:
+  - API Design
   - Applications
   - Best Practices
   - Examples
