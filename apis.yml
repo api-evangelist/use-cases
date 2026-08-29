@@ -7,6 +7,17 @@ description: >-
   across industries including fintech, healthcare, retail, logistics, and enterprise
   software, helping API producers and consumers understand how APIs deliver value.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
