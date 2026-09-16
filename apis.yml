@@ -1,5 +1,10 @@
 aid: use-cases
 name: Use Cases
+# x-type: index -- an API Evangelist INDEX, not a company (roadmap#402). This record is
+# this catalog's own aggregation of other people's APIs. score.rb's NON_PROVIDER_X_TYPES
+# excludes it from rating and from provider lists; the page stays, because it is a real
+# piece of curation someone may link to.
+x-type: index
 description: >-
   A curated collection of practical API use cases across industries and technical
   domains. Use cases describe specific scenarios where APIs solve real-world problems,
@@ -34,7 +39,6 @@ tags:
   - API Design
   - Application
   - Best Practices
-  - Developer Tools
   - Examples
   - Implementation
   - Integration Patterns
