@@ -19,9 +19,13 @@ front_door_ai:
   - persons-api
   - power-tools
   - products-api
+  - proxy
   inherited_from: null
+  alias_of: null
   verdict: scored
   score: null
+  band: null
+  band_label: null
   host_score: 11
   density: null
   words: 896
