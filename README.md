@@ -1,4 +1,4 @@
-# Use Cases
+# use-cases
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,56 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-A curated collection of practical API use cases across industries and technical domains. Use cases describe specific scenarios where APIs solve real-world problems, improve workflows, and enable integrations. This repository indexes use case patterns across industries including fintech, healthcare, retail, logistics, and enterprise software, helping API producers and consumers understand how APIs deliver value.
+## use-cases on APIs.io
 
-## Overview
+Everything profiled for use-cases is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/use-cases/](https://apis.io/providers/use-cases/)** — or go straight to one of the APIs or properties below.
 
-| Property | Value |
-|---|---|
-| **Type** | Index |
-| **Version** | 0.19 |
-| **Created** | 2025-01-01 |
-| **Modified** | 2026-05-03 |
+## API Evangelist rating
 
-## Tags
+Not yet rated. See [apis.io/providers/use-cases/](https://apis.io/providers/use-cases/).
 
-`API Design` `Applications` `Best Practices` `Examples` `Implementation` `Integration Patterns` `Scenarios` `Solutions`
+## How this profile is made
 
-## Artifacts
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-### JSON-LD Context
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for use-cases: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-A JSON-LD context mapping use case vocabulary to linked data semantics, aligning concepts with schema.org and custom use case ontologies.
+## Open an issue
 
-- [use-cases-context.jsonld](json-ld/use-cases-context.jsonld)
-
-### Vocabulary
-
-A comprehensive taxonomy and vocabulary for describing API use cases, covering industry verticals, integration patterns, personas, API capability types, complexity levels, and maturity stages.
-
-- [use-cases-vocabulary.yml](vocabulary/use-cases-vocabulary.yml)
-
-## Vocabulary Coverage
-
-The vocabulary covers the following dimensions:
-
-**Industry Verticals:** Finance, Healthcare, Retail, Logistics, Government, Education, Manufacturing, Media, Travel, Telecommunications, Real Estate, Insurance
-
-**Integration Patterns:** CRUD, Event-Driven, Webhook, Polling, Batch Processing, Streaming, Orchestration, Aggregation, Transformation, Request-Response
-
-**API Capability Types:** Authentication, Payments, Notifications, Search, Analytics, Storage, AI/ML, Geolocation, Communication, Identity, Compliance, Data
-
-**Personas:** Developer, Data Engineer, Product Manager, Architect, Business Analyst, DevOps Engineer, Security Engineer, Data Scientist
-
-**Complexity Levels:** Basic, Intermediate, Advanced, Expert
-
-**Maturity Stages:** Emerging, Growing, Established, Commodity
-
-## Maintainers
-
-- **Kin Lane** — kin@apievangelist.com
-
-## Links
-
-- [API Evangelist](https://apievangelist.com/)
-- [GitHub Repository](https://github.com/api-evangelist/use-cases)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/use-cases/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
